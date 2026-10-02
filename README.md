@@ -1,34 +1,54 @@
-# stock-market-dashboard
-A real-time stock market dashboard with buy/sell signals, portfolio tracking, and analytics built with Python.
+# 📱 Wealth & Trading Dashboard
 
-## Features
-- Live stock price tracking
-- Technical analysis using SMA, EMA, MACD, RSI, Bollinger Bands, Stochastic, volume, ROC, and ADX
-- Buy / Sell / Hold recommendation engine
-- Portfolio transaction logging
-- Watchlist and price alerts
-- ML-based probability signal model
-- Interactive charts via Plotly
+A mobile-friendly app to build wealth long-term and make informed trading decisions.
 
-## Tech stack
-- Python
-- Streamlit
-- yfinance
-- Pandas / NumPy
-- Plotly
-- scikit-learn
+## Two Screens
 
-## Installation
+### 💰 Wealth Dashboard
+- Track portfolio value
+- Log monthly contributions
+- View holdings and gains
+- Set wealth goals
+- Project future wealth
+
+### 📈 Trading Hub
+- Real-time stock signals (BUY/SELL/HOLD)
+- Technical analysis with buy/sell price levels
+- Trade execution and history
+- Price alerts
+- Signal component breakdown
+
+## Setup
+
 ```bash
 python -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
-## Run the app
+## Run
+
 ```bash
-streamlit run app.py
+streamlit run main_app.py
 ```
 
-## Notes
-This project is for educational and research purposes only. It does not guarantee returns and is not financial advice.
+Then open: `http://localhost:8501`
+
+## Mobile
+
+Streamlit is mobile-responsive. Access from your phone by:
+1. Running the app on your computer
+2. Finding your computer's IP address
+3. Accessing `http://<YOUR_IP>:8501` from your phone
+
+Or deploy to Streamlit Cloud for free hosting.
+
+## Strategy
+
+**Long-term wealth**: Invest $50/month in diversified ETFs, let it compound
+
+**Trading**: Use signals to time entries/exits, but keep size small until you prove it works
+
+## Disclaimer
+
+Educational tool only. Not financial advice. Past performance ≠ future results. You can lose money.
